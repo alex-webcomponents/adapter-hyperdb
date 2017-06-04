@@ -1,0 +1,29 @@
+{
+  "name": "micro-analytics-adapter-hyperdb",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "prettier --write --flow-parser --single-quote --print-width 100 **.js",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micro-analytics/micro-analytics-adapter-hyperdb.git"
+  },
+  "author": "Rolf Erik Lekang <me@rolflekang.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hypercore": "^6.3.8",
+    "hyperdb": "github:mafintosh/hyperdb",
+    "pify": "^3.0.0",
+    "random-access-memory": "^2.4.0"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "micro-analytics-cli": "micro-analytics/micro-analytics-cli",
+    "prettier": "^1.4.1",
+    "standard-version": "^4.0.0"
+  }
+}
